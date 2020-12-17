@@ -1,0 +1,10 @@
+{
+  "title": "Controlla Docs",
+  "url": "docs.controlla.com.mx",
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
+  },
+  "github": "https://github.com/Controlla/controlla-docs",
+  "twitter": "@_IvanSotelo_"
+}
