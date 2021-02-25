@@ -1886,32 +1886,6 @@
     parse-git-config "^3.0.0"
     rc9 "^1.2.0"
     std-env "^2.2.1"
-
-"@nuxt/types@^2.14.12":
-  version "2.15.1"
-  resolved "https://registry.npmjs.org/@nuxt/types/-/types-2.15.1.tgz"
-  integrity sha512-zS6OuGHoMDJ0+xDLxJVQ+0UY/obTapYS8eBKaf/Qkv0QWseBq2kd18gXPF7hRbx1agtjEyEnPcY8WAr94j+sLg==
-  dependencies:
-    "@types/autoprefixer" "^9.7.2"
-    "@types/babel__core" "^7.1.12"
-    "@types/compression" "^1.7.0"
-    "@types/connect" "^3.4.34"
-    "@types/etag" "^1.8.0"
-    "@types/file-loader" "^4.2.0"
-    "@types/html-minifier" "^4.0.0"
-    "@types/less" "^3.0.2"
-    "@types/node" "^12.20.4"
-    "@types/optimize-css-assets-webpack-plugin" "^5.0.2"
-    "@types/pug" "^2.0.4"
-    "@types/sass" "^1.16.0"
-    "@types/serve-static" "^1.13.9"
-    "@types/terser-webpack-plugin" "^4.2.0"
-    "@types/webpack" "^4.41.26"
-    "@types/webpack-bundle-analyzer" "^3.9.1"
-    "@types/webpack-dev-middleware" "^4.1.0"
-    "@types/webpack-hot-middleware" "^2.25.3"
-    sass-loader "^10.1.1"
-
 "@nuxt/types@^2.15.2":
   version "2.15.2"
   resolved "https://registry.yarnpkg.com/@nuxt/types/-/types-2.15.2.tgz#040b2cf96b0fad86baccead95721b4e28444613f"
@@ -13015,10 +12989,10 @@ trough@^1.0.0:
   resolved "https://registry.npmjs.org/trough/-/trough-1.0.5.tgz"
   integrity sha512-rvuRbTarPXmMb79SmzEp8aqXNKcK+y0XaB298IXueQ8I2PsrATcPBCSPyK/dDNa2iWOhKlfNnOjdAOTBU/nkFA==
 
-ts-jest@^26.5.2:
-  version "26.5.2"
-  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-26.5.2.tgz#5281d6b44c2f94f71205728a389edc3d7995b0c4"
-  integrity sha512-bwyJ2zJieSugf7RB+o8fgkMeoMVMM2KPDE0UklRLuACxjwJsOrZNo6chrcScmK33YavPSwhARffy8dZx5LJdUQ==
+ts-jest@^26.5.1:
+  version "26.5.1"
+  resolved "https://registry.npmjs.org/ts-jest/-/ts-jest-26.5.1.tgz"
+  integrity sha512-G7Rmo3OJMvlqE79amJX8VJKDiRcd7/r61wh9fnvvG8cAjhA9edklGw/dCxRSQmfZ/z8NDums5srSVgwZos1qfg==
   dependencies:
     "@types/jest" "26.x"
     bs-logger "0.x"
