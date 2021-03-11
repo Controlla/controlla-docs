@@ -1837,10 +1837,6 @@
     ts-node "^9.1.1"
     typescript "~4.2"
 
-"@nuxt/ufo@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.npmjs.org/@nuxt/ufo/-/ufo-0.5.2.tgz"
-
 "@nuxt/utils@2.15.2":
   version "2.15.2"
   resolved "https://registry.yarnpkg.com/@nuxt/utils/-/utils-2.15.2.tgz#b21b8e74f7a1b81460b47f226bbf7f9edaf6912c"
@@ -2036,18 +2032,19 @@
     consola "^2.12.1"
     stylelint-webpack-plugin "^2.0.0"
 
-"@nuxtjs/tailwindcss@^3.4.2":
-  version "3.4.2"
-  resolved "https://registry.npmjs.org/@nuxtjs/tailwindcss/-/tailwindcss-3.4.2.tgz"
+"@nuxtjs/tailwindcss@^3.4.2", "@nuxtjs/tailwindcss@^3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-3.4.3.tgz#8239b11857d395000d9ff5df52b18644d631629d"
+  integrity sha512-W2FIB5zzvkPkNayQ3mTy7jcP0rTDwnrjv79v96/CRTptFbY5TxvZVJI7N0r8ova/IWPSdkgjdCb7wbzolzzgjg==
   dependencies:
-    "@nuxt/ufo" "^0.5.2"
     chalk "^4.1.0"
     clear-module "^4.1.1"
-    consola "^2.15.0"
+    consola "^2.15.3"
     defu "^3.2.2"
-    fs-extra "^9.0.1"
-    tailwind-config-viewer "^1.4.0"
+    fs-extra "^9.1.0"
+    tailwind-config-viewer "^1.5.0"
     tailwindcss "^1.9.6"
+    ufo "^0.6.9"
 
 "@nuxtjs/youch@^4.2.3":
   version "4.2.3"
@@ -11313,21 +11310,19 @@ table@^6.0.4, table@^6.0.7:
     slice-ansi "^4.0.0"
     string-width "^4.2.0"
 
-tailwind-config-viewer@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.npmjs.org/tailwind-config-viewer/-/tailwind-config-viewer-1.4.0.tgz"
+tailwind-config-viewer@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/tailwind-config-viewer/-/tailwind-config-viewer-1.5.0.tgz#b0a345a70f4282f305bf012fdb2d54e48a4e885f"
+  integrity sha512-yiQjFh/Hv9MgCmqJgIzCp74TDfwhBSS3no3vwEa094DGSk1eoaAKbzJskFFma91a0IxI8oVFOPZ+HCPiSZR16A==
   dependencies:
     "@koa/router" "^9.0.1"
     commander "^6.0.0"
-    core-js "^2.6.5"
     fs-extra "^9.0.1"
     koa "^2.12.0"
     koa-static "^5.0.0"
     open "^7.0.4"
     portfinder "^1.0.26"
     replace-in-file "^6.1.0"
-    vue "^2.6.10"
-    vue-draggable-resizable "^2.2.0"
 
 tailwind-css-variables@^2.0.3:
   version "2.0.3"
@@ -11741,10 +11736,10 @@ ua-parser-js@^0.7.24:
   version "0.7.24"
   resolved "https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.24.tgz"
 
-ufo@^0.6.7:
-  version "0.6.7"
-  resolved "https://registry.yarnpkg.com/ufo/-/ufo-0.6.7.tgz#e39995c2208ac66f23fc1dfbc090e307ab0ab92b"
-  integrity sha512-pSaIXMAb5RTmuGEzSwqxvIt9x6qgsSXh3/dJXAaLGedT9oz2xqWCXvliFTCSUQxwHlG2fL3tseCFKoNEWpo31w==
+ufo@^0.6.7, ufo@^0.6.9:
+  version "0.6.10"
+  resolved "https://registry.yarnpkg.com/ufo/-/ufo-0.6.10.tgz#c7ace9b8f72cb08c35e3a8c8edc76f062fbaa7d0"
+  integrity sha512-sMbJnrBcKKsbVyr6++hb0n9lCmrMqkJrNnJIOJ3sckeqY6NMfAULcRGbBWcASSnN1HDV3YqiGCPzi9RVs511bw==
 
 uglify-js@^3.5.1:
   version "3.12.2"
@@ -12041,10 +12036,6 @@ vue-client-only@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/vue-client-only/-/vue-client-only-2.0.0.tgz"
 
-vue-draggable-resizable@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.npmjs.org/vue-draggable-resizable/-/vue-draggable-resizable-2.2.0.tgz"
-
 vue-eslint-parser@^7.1.1, vue-eslint-parser@^7.6.0:
   version "7.6.0"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-7.6.0.tgz#01ea1a2932f581ff244336565d712801f8f72561"
@@ -12143,7 +12134,7 @@ vue-template-es2015-compiler@^1.6.0, vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "https://registry.npmjs.org/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz"
 
-vue@^2.6.10, vue@^2.6.12:
+vue@^2.6.12:
   version "2.6.12"
   resolved "https://registry.npmjs.org/vue/-/vue-2.6.12.tgz"
 
