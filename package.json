@@ -23,7 +23,7 @@
     }
   },
   "dependencies": {
-    "@nuxt/content": "^1.13.1",
+    "@nuxt/content": "^1.15.0",
     "@nuxt/content-theme-docs": "^0.10.2",
     "@nuxt/typescript-runtime": "^2.1.0",
     "@nuxtjs/axios": "^5.13.6",
@@ -32,7 +32,7 @@
     "nuxt": "^2.15.8"
   },
   "devDependencies": {
-    "@commitlint/cli": "^13.1.0",
+    "@commitlint/cli": "^13.2.1",
     "@commitlint/config-conventional": "^13.2.0",
     "@nuxt/types": "^2.15.8",
     "@nuxt/typescript-build": "^2.1.0",
