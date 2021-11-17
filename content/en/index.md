@@ -2,7 +2,7 @@
 title: Introducción
 description: 'Controlla CLI es una linea de commandos que provee herramientas que facilitan el desarrollo al equipo de Controlla.'
 position: 1
-category: Getting started
+category: Comenzando
 features:
   - Inicialización de proyectos
   - Creacion de cruds modulares
