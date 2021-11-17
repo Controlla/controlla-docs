@@ -11,6 +11,12 @@ Para crear un nuevo proyecto es tan sencillo como correr el siguiente comando en
 controlla new hello-world
 ```
 
+<alert type="warning">
+
+El nombre del proyecto debera de ser en minisculas y separadas por guiones
+
+</alert>
+
 Se le pedirá que elija el tipo de proyecto. 
 
 <img src="/create-light.png" class="light-img" alt="Create Cli light" />
