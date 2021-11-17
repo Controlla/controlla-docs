@@ -1,18 +1,20 @@
 ---
 title: Introducción
-description: 'Empower your NuxtJS application with @nuxt/content module: write in a content/ directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a Git-based Headless CMS.'
+description: 'Controlla CLI es una linea de commandos que provee herramientas que facilitan el desarrollo al equipo de Controlla.'
+position: 1
+category: Getting started
+features:
+  - Inicialización de proyectos
+  - Creacion de cruds modulares
+  - Creacion de ambientes de desarrollo
+  - Compilado de proyectos
+  - Despliegue de proyectos
 ---
 
-Empower your NuxtJS application with `@nuxtjs/content` module: write in a `content/` directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a **Git-based Headless CMS**.
+`Controlla CLI` es una linea de commandos que provee herramientas que facilitan el desarrollo al equipo de `Controlla`.
 
-## Writing content
+## Features
 
-Learn how to write your `content/`, supporting Markdown, YAML, CSV and JSON: https://content.nuxtjs.org/writing.
+<list :items="features"></list>
 
-## Fetching content
-
-Learn how to fetch your content with `$content`: https://content.nuxtjs.org/fetching.
-
-## Displaying content
-
-Learn how to display your Markdown content with the `<nuxt-content>` component directly in your template: https://content.nuxtjs.org/displaying.
+<p class="flex items-center">Enjoy light and dark mode:&nbsp;<app-color-switcher class="inline-flex ml-2"></app-color-switcher></p>
