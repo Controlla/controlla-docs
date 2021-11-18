@@ -8,5 +8,10 @@ export default theme({
   docs: {
     primaryColor: '#5A0FC8'
   },
-  loading: { color: '#5A0FC8' }
+  loading: { color: '#5A0FC8' },
+  pwa: {
+    manifest: {
+      name: 'Controlla Docs'
+    }
+  }
 })
