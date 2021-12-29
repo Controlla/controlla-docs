@@ -7,7 +7,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "echo 1"
   },
   "dependencies": {
     "@nuxt/content-theme-docs": "^0.11.1",
