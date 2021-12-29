@@ -1,11 +1,10 @@
 {
-    "title": "Controlla Docs",
-    "url": "https://docs.controlla.com.mx",
-    "logo": {
-        "light": "/logo-light.svg",
-        "dark": "/logo-dark.svg"
-    },
-    "github": "Controlla/controlla-docs",
-    "twitter": "controlla",
-    "defaultBranch": "main"
-  }
+  "title": "Controlla Docs",
+  "url": "https://developers.controlla.com.mx/",
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
+  },
+  "github": "Controlla/controlla-docs",
+  "twitter": "@ControllaDev"
+}
