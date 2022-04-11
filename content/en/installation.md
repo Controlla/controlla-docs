@@ -10,20 +10,19 @@ Agrega `@controlla/cli` globalmente a tu maquina:
 <code-group>
   <code-block label="NPM" active>
 
-  ```bash
-  npm install @controlla/cli
-  ```
+```bash
+npm install @controlla/cli
+```
 
   </code-block>
   <code-block label="Yarn">
 
-  ```bash
-  yarn global add @controlla/cli
-  ```
+```bash
+yarn global add @controlla/cli
+```
 
   </code-block>
 </code-group>
-
 
 Después de la instalación, tendrá acceso al binario vue en su línea de comando. Puede verificar que esté instalado correctamente simplemente ejecutando vue, que debería presentarle un mensaje de ayuda con una lista de todos los comandos disponibles.
 
