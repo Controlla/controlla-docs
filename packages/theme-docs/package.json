@@ -1,0 +1,19 @@
+{
+  "name": "@controlla/theme-docs",
+  "version": "1.0.0",
+  "description": "Theme for docs",
+  "author": "Ivan Sotelo",
+  "license": "MIT",
+  "dependencies": {
+    "@nuxt/content": "^1.15.1",
+    "@nuxtjs/color-mode": "^2.1.1",
+    "@nuxtjs/google-fonts": "^1.3.0",
+    "@nuxtjs/i18n": "^7.2.0",
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "graceful-fs": "^4.2.10",
+    "marked": "^4.0.14",
+    "prism-themes": "^1.9.0",
+    "theme-colors": "0.0.5",
+    "vue-scrollactive": "^0.9.3"
+  }
+}
