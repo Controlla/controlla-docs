@@ -1,4 +1,4 @@
-import theme from '@nuxt/content-theme-docs'
+import theme from './packages/theme-docs/src/index'
 
 export default theme({
   server: {
